@@ -1,0 +1,66 @@
+#include <iostream>
+using namespace std;
+int main()
+#define PI 3.14
+{
+    float a,b,c,r,total;
+//Câu 1
+    cout << "Tinh Tong"<<endl;
+    cout << "Nhap vao so a, b: ";
+    cin >> a>>b;
+    cout << "Tong 2 so: " << a+b<<endl;
+
+    cout << "Tinh Hieu"<<endl;
+    cout << "Nhap vao so a, b: ";
+    cin >> a>>b;
+    cout << "Hieu 2 so: " << a-b<<endl;
+    
+    cout << "Tinh Tich"<<endl;
+    cout << "Nhap vao so a, b: ";
+    cin >> a>>b;
+    cout << "Tich 2 so: " << a*b<<endl;
+    
+    cout << "Tinh Thuong"<<endl;
+    cout << "Nhap vao so a, b: ";
+    cin >> a>>b;
+    cout << "Thuong 2 so: " << a/b<<endl;
+//Câu 2
+    cout << "Tinh Dien Tich Hinh Vuong"<<endl;
+    cout << "Nhap vao 2 canh a, b: ";
+    cin >> a>>b;
+    cout << "Dien tich hinh vuong : " << a*b<<endl;
+    
+    cout << "Tinh Dien Tich Hinh Tron"<<endl;
+    cout << "Nhap vao ban kinh r: ";
+    cin >> r;
+    cout << "Dien tich hinh tron : " << 2*r*PI<<endl;
+    
+    cout << "Tinh Dien Tich Hinh Tam Giac"<<endl;
+    cout << "Nhap vao cac canh tam giac a, b, c: ";
+    cin >> a>>b>>c;
+    cout << "Dien tich hinh tam giac : " << (a+b+c)/2<<endl;
+//Câu 3
+    cout << "Tinh Lai Suat Nam Dau"<<endl;
+    cout << "Nhap vao so a: ";
+    cin >> a;
+    total = a * 1.15;
+    cout << "Lai Suat Nam Dau: " <<a * 0.15<<endl;
+    cout << "Tinh Lai Suat Nam Thu Hai"<<endl;
+    
+    cout << "Lai Suat Nam Thu Hai: " <<total * 0.15<<endl;
+//Câu 4
+    cout << "Tinh Trung Bình Cong"<<endl;
+    cout << "Nhap vao so a, b, c: ";
+    cin >> a>>b>>c;
+    cout << "Tong Trung Binh Cong 3 so: " << (a+b+c)/3<<endl;
+//Câu 5
+    cout << "Hoan Doi Hai So a,b"<<endl;
+    cout << "Nhap vao so a, b: ";
+    cin >> a>>b;
+    c = a;
+    a = b;
+    b = c;
+    cout << "Hai so sau khi hoan doi la: "<<a<<b<<endl;
+    return 0;
+}
+
